@@ -65,7 +65,7 @@ export function UsersPage() {
   )
 
   return (
-    <div className="px-10">
+    <div className="lg:px-10">
       <div className="mb-6">
         <div className="flex items-center">
           <div>
@@ -87,8 +87,8 @@ export function UsersPage() {
           </Button>
         </div>
 
-        <div className="flex justify-between mb-4 bg-white p-4 rounded">
-          <div className="flex gap-2">
+        <div className="lg:flex justify-between mb-4 bg-white p-4 rounded">
+          <div className="lg:flex gap-2">
             <Input
               placeholder="Search here..."
               className="w-[300px]"

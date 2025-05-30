@@ -1,7 +1,7 @@
 import axios from "axios"
 import type { UserType, CreateUserInput, UpdateUserInput } from "@/types/user"
 
-const API_URL = "https://ca4e9fdcbe89e90e5826.free.beeceptor.com/api"
+const API_URL = "https://ca1a48ee0881b4f9cc4b.free.beeceptor.com/api"
 
 // Create an axios instance
 const api = axios.create({

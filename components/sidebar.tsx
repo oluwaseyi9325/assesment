@@ -52,18 +52,18 @@ export function Sidebar() {
     <div className="w-[240px] border-lg rounded bg-background h-screen flex flex-col">
      
       <div className="px-3 py-2">
-        <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">Settings</h2>
-        <div className="space-y-1">
+        <h2 className="mb-5 pt-3 px-4 text-lg font-semibold text-[#334155]">Settings</h2>
+        <div className="space-y-3">
           {menuItems.map((item) => (
             <Link
               key={item.title}
               href={item.href}
               className={cn(
-                "flex items-center gap-3 rounded-md px-4 py-2 text-sm font-medium transition-colors",
-                item.active ? "bg-blue-50 text-blue-600" : "text-muted-foreground hover:bg-muted hover:text-foreground",
+                "flex items-center gap-4 rounded-md px-4 py-2 text-sm font-medium transition-colors",
+                item.active ? "bg-blue-50 text-blue-600" : "text-[#94A3B8] hover:bg-muted hover:text-foreground",
               )}
             >
-              <item.icon className="h-5 w-5" />
+              <item.icon className="h-5 w-5 text-[#94A3B8]" />
               {item.title}
             </Link>
           ))}

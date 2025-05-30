@@ -8,12 +8,12 @@ import { Button } from "@/components/ui/button"
 export function TopNav() {
 
   return (
-    <header className="flex h-16 items-center gap-4 border-b bg-background px-4 lg:px-6">
+    <header className="flex h-16 items-center gap-4 border-b bg-background px-4 lg:px-6 py-4">
       <div className="p-4">
         <div className="h-10 w-10 bg-blue-600 rounded"></div>
       </div>
       <div className="flex-1">
-        <Input placeholder="Search here..." className="w-[300px] bg-background" />
+        <Input placeholder="Search here..." className="w-[400px] bg-[#F0F2F5] rounded-lg" />
       </div>
       <nav className="flex items-center gap-4 lg:gap-6">
         <Button variant="ghost" size="icon" className="text-muted-foreground">
